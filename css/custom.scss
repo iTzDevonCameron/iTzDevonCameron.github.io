@@ -4,6 +4,23 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-family-base: 'Ubuntu', sans-serif;
+
+$celadon: #7BE0AD;
+$misty-rose: #FFD9DA;
+$blush: #DE4D86;
+$jonquil: #EFCA08;
+$non-photo-blue: #84E6F8;
+
+$primary: $celadon;
+$secondary: $misty-rose;
+$success: $blush;
+$danger: $jonquil;
+$warning: $non-photo-blue;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here 
